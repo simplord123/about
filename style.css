@@ -19,7 +19,7 @@ body{
     max-width: 100%;
 }
 .navbar{
-    background-image: linear-gradient(to top right, rgb(31, 31, 31), rgba(158, 40, 40, 0.211));
+    background-image: linear-gradient(to top right, rgb(31, 31, 31), rgba(158, 40, 40));
     box-shadow: 1px 1px 5px black;
 }
 .navdiv{
@@ -61,13 +61,17 @@ footer img{
     padding-right: 0.25rem;
     padding-left: 0.25rem;
 }
+header{
+    position: sticky;
+    top: 0;
+}
 footer{
-    position: fixed;
+    position: sticky;
     width: inherit;
     max-width: inherit;
     padding: 1rem;
     bottom: 0;
-    height: 280px;
+    height: fit-content;
     background-color: rgba(0, 0, 0, 0.658);
     backdrop-filter: blur(1rem);
     border-top: 5px double #333;   
@@ -85,10 +89,17 @@ main{
 }
 p{
     text-align: center;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 4px 4px 5px black;
     color: whitesmoke;
 }
 h2{
     color: papayawhip;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 4px 4px 5px black;
+    line-height: 2.5rem;
+}
+main img{
+    border-radius: 2rem;
+    box-shadow: 5px 5px 5px black;
+    display: block;
+    margin: auto;
 }
