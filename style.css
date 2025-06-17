@@ -70,9 +70,8 @@ footer{
     bottom: 0;
     height: fit-content;
     background-image: linear-gradient(to top right, rgb(31, 31, 31), rgba(158, 40, 40));
-    box-shadow: 1px 1px 5px black;
     backdrop-filter: blur(1rem);
-    border-top: 3px double whitesmoke;   
+    border-top: 3px double black;   
     color: whitesmoke;
     text-align: center;
     font-size: small;
