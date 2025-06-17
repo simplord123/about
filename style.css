@@ -50,10 +50,6 @@ body{
 .li a:focus{
     color: gold;
 }
-footer a,
-footer a:visited{
-    color: white;
-}
 footer img{
     display: inline-block;
     margin: auto;
@@ -77,15 +73,13 @@ footer{
     border-top: 5px double #333;   
     color: whitesmoke;
     text-align: center;
-}
-footer p{
-    color: whitesmoke;
+    font-size: 0.6rem;
 }
 main{
     text-align: center;
     margin: 2rem auto 1rem;
-    font-size: 1.5rem;
     line-height: 2rem;
+    font-size: small;
 }
 p{
     text-align: center;
@@ -103,22 +97,3 @@ main img{
     display: block;
     margin: auto;
 }
-@media screen and (min-width: 200px) {
-    main p,h1,h2,h3,h4{
-        font-size: 1rem;
-    }
-    footer{
-        font-size: 0.6rem;
-    }
-}
-@media screen and (min-width: 700px) {
-    main p,h4{
-        font-size: 1.5rem;
-    }
-    main h2{
-        font-size: 2.2rem;
-    }
-    footer{
-        font-size: 1rem;
-    }
-} 
