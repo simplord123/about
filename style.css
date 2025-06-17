@@ -9,14 +9,16 @@ body{
     font-family: poppins;
     width: 100%;
     margin: auto;
-    border: 1px solid #333;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     background-image: url(gratisography-ominous-landscape-free-stock-photo.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 100%;
+    max-width: 532px;
+}
+html{
+    background-image: radial-gradient(gray,black);
 }
 .navbar{
     background-image: linear-gradient(to top right, rgb(31, 31, 31), rgba(158, 40, 40));
@@ -52,28 +54,28 @@ body{
 }
 footer img{
     display: inline-block;
-    margin: auto;
     align-items: center;
-    padding-right: 0.25rem;
-    padding-left: 0.25rem;
+    margin-right: 0.25rem;
+    margin-left: 0.25rem;
+
 }
 header{
     position: sticky;
     top: 0;
 }
 footer{
-    position: sticky;
     width: inherit;
     max-width: inherit;
     padding: 1rem;
     bottom: 0;
     height: fit-content;
-    background-color: rgba(0, 0, 0, 0.658);
+    background-image: linear-gradient(to top right, rgb(31, 31, 31), rgba(158, 40, 40));
+    box-shadow: 1px 1px 5px black;
     backdrop-filter: blur(1rem);
-    border-top: 5px double #333;   
+    border-top: 3px double whitesmoke;   
     color: whitesmoke;
     text-align: center;
-    font-size: 0.6rem;
+    font-size: small;
 }
 main{
     text-align: center;
