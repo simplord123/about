@@ -98,9 +98,10 @@ main img{
     margin: auto;
 }
 audio{
-    margin: 0.5rem auto 2rem;
+    display: block;
+    margin: 1rem auto auto;
+    width: 15rem;
     height: 2rem;
-    width: 20rem;  
-    box-shadow: 5px 5px 5px black;
     border-radius: 2rem;
+    box-shadow: 5px 5px 5px black;
 }
