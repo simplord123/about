@@ -96,3 +96,11 @@ main img{
     display: block;
     margin: auto;
 }
+audio{
+    display: block;
+    margin: 1rem auto auto;
+    height: 2rem;
+    width: 15rem;
+    box-shadow: 5px 5px 5px;
+    border-radius: 2rem;
+}
