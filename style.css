@@ -101,4 +101,6 @@ audio{
     margin: 0.5rem auto 2rem;
     height: 2rem;
     width: 20rem;  
+    box-shadow: 5px 5px 5px black;
+    border-radius: 2rem;
 }
