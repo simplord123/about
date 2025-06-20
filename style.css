@@ -12,17 +12,14 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url(gratisography-ominous-landscape-free-stock-photo.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
     max-width: 532px;
+    background-image: radial-gradient(#333,black);
 }
 html{
-    background-image: radial-gradient(gray,black);
+    background-image: radial-gradient(firebrick 25%,black);
 }
 .navbar{
-    background-image: linear-gradient(to top right, rgb(31, 31, 31), rgba(158, 40, 40));
-    box-shadow: 1px 1px 5px black;
+    background-image: linear-gradient(to top right, rgba(158, 40, 40, 1),rgb(31, 31, 31));
 }
 .navdiv{
     display: flex;
@@ -31,10 +28,9 @@ html{
 }
 .logo a{
     font-size: 35px;
-    color: whitesmoke;
+    color: white;
     font-weight: bolder;
     margin-left: 0.2rem;
-    text-shadow: 1px 1px 1px black;
 }
 .logo a:hover{
     color: gold;
@@ -45,8 +41,7 @@ html{
 }
 .li a{
     color: white;
-    margin-right: 0.2rem;
-    text-shadow: 1px 1px 1px black;
+    margin-right: 0.3rem;
 }
 .li a:hover,
 .li a:focus{
@@ -70,10 +65,10 @@ footer{
     padding: 1rem;
     bottom: 0;
     height: fit-content;
-    background-image: linear-gradient(to top right, rgb(31, 31, 31), rgba(158, 40, 40));
+    background-image: linear-gradient(to top left, rgb(31, 31, 31), rgba(158, 40, 40));
     backdrop-filter: blur(1rem);
-    border-top: 3px double black;   
-    color: whitesmoke;
+    border-top: 3px double silver;   
+    color: white;
     text-align: center;
     font-size: small;
 }
@@ -85,7 +80,7 @@ main{
     line-height: 1.5rem;
     text-align: center;
     text-shadow: 4px 4px 5px black;  
-    color: whitesmoke;
+    color: white;
 }
 h2,h4{
     color: papayawhip;
@@ -93,15 +88,6 @@ h2,h4{
 }
 main img{
     border-radius: 2rem;
-    box-shadow: 5px 5px 5px black;
     display: block;
     margin: auto;
-}
-audio{
-    display: block;
-    margin: 1rem auto auto;
-    width: 15rem;
-    height: 2rem;
-    border-radius: 2rem;
-    box-shadow: 5px 5px 5px black;
 }
